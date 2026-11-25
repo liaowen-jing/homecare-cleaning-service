@@ -1,5 +1,5 @@
 #hero{
-background-color: #f5f5f5;
+background-color: #dee3d9;
 }
 
 .hidden{
@@ -22,15 +22,24 @@ background-color:#2563eb;
 }
 
 #navigation{
-    display: block;
+    display:block; 
+}
+
+img{
+    width: 80%;
+    height:auto;
 }
 
 *{
 box-sizing: border-box;
 }
+
 body{
 margin: 0;
+background-color: bisque;
 font-family:Arial;
+justify-content: center;
+text-align: center;
 }
 
 ul{
@@ -68,5 +77,11 @@ font-size:16px;
 #navigation.is-open{
     display: block;
 }
+#navigation li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 }
 
